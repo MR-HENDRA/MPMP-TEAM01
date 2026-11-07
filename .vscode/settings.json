@@ -1,0 +1,8 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^python nls\\.py; if \\(\\$LASTEXITCODE -ne 0\\) \\{ exit \\$LASTEXITCODE \\}; python rll\\.py$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
