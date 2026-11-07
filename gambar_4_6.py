@@ -179,7 +179,7 @@ ax.text(8, 0.29,
 
 fig.subplots_adjust(left=0.015, right=0.985, top=0.985, bottom=0.02)
 for ext in ('png', 'svg'):
-    target = OUTPUT_DIR / f'gambar_4_6_revisi.{ext}'
+    target = OUTPUT_DIR / f'gambar_4_6.{ext}'
     fig.savefig(target, dpi=300, facecolor='white')
     print(f'Tersimpan: {target}')
 plt.close(fig)
